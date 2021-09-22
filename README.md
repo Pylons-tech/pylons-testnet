@@ -6,6 +6,15 @@
          ensure GOPATH is set properly to point to the go directory of your Go installation: GOPATH = $HOME/go
          ensure PATH is set properly to point to the bin folder of your Go installation: PATH = $GOPATH/bin
          pylonsd binary should be put in this bin folder of your Go installation
+         Edit your .profile in your home directory. 
+         Add $GOPATH and edit $PATH environment variables. It lets your system reference to the correct binary when during compilation.
+         $ nano $HOME/.profile
+         Add the following two lines at the end of the file.
+         GOPATH=$HOME/go
+         PATH=$GOPATH/bin:$PATH
+         Then run the following to make your bash reload your profile configurations.
+         $ source $HOME/.profile
+
 
 
 ## GenTx Generation
