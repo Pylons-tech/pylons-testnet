@@ -17,7 +17,7 @@
    ```shell
    $ pylonsd keys add <key-name> --keyring-backend=os
    ```
-   We recommend you to save the mnemonic generated in order to recover your account if it lost.  
+   We recommend that you save the mnemonic generated to be able to recover your account in the future if it gets lost.  
 
 3. Add your account to your local genesis file with a given amount and the key you
    just created.
