@@ -3,9 +3,9 @@
 - Go version: [v1.16+](https://golang.org/dl/)
 - Pylonsd version: [v0.1.0](https://github.com/Pylons-tech/pylons/releases)
 
-* *ensure GOPATH is set properly to point to the go directory of your Go installation: GOPATH = $HOME/go*
-* *ensure PATH is set properly to point to the bin folder of your Go installation: PATH = $GOPATH/bin*
-* *pylonsd binary should be put in this bin folder of your Go installation*
+      * *ensure GOPATH is set properly to point to the go directory of your Go installation: GOPATH = $HOME/go*
+      * *ensure PATH is set properly to point to the bin folder of your Go installation: PATH = $GOPATH/bin*
+      * *pylonsd binary should be put in this bin folder of your Go installation*
 
 
 ## GenTx Generation
