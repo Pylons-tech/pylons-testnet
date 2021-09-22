@@ -37,7 +37,7 @@ push it** to the pylons-testnet repository.
 
    ```shell
     $ git add gentxs/<moniker-name>.json
-    $ git commit -m "created gentx to moniker <moniker-name>"
+    $ git commit -m "created gentx for <moniker-name>"
     $ git push origin main
 
    ```
