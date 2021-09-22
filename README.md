@@ -31,6 +31,6 @@
    $ pylonsd gentx <key-name>     \ 
       1000000ubedrock --moniker=<monikername> \ 
       --pubkey $(pylonsd tendermint show-validator) \    
-      --keyring-backend=os 
-      --chain-id=pylons-testnet   
+      --keyring-backend=os                          \
+      --chain-id=pylons-testnet                     
    ```
