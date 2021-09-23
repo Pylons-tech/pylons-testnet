@@ -5,7 +5,7 @@
 
          ensure GOPATH is set properly to point to the go directory of your Go installation: GOPATH = $HOME/go
          ensure PATH is set properly to point to the bin folder of your Go installation: PATH = $GOPATH/bin
-         pylonsd binary should be put in this bin folder of your Go installation
+         pylonsd binary(link above or from 'make install' on repo clone/source) should be put in Go's bin folder
 
 ## GenTx Generation
 
