@@ -1,7 +1,7 @@
 # pylons-testnet
 
 - Go version: [v1.16+](https://golang.org/dl/)
-- Pylonsd version: [v0.1.0](https://github.com/Pylons-tech/pylons/releases)
+- Pylonsd version: [v0.1.1](https://github.com/Pylons-tech/pylons/releases/tag/v0.1.1)
 
          ensure GOPATH is set properly to point to the go directory of your Go installation: GOPATH = $HOME/go
          ensure PATH is set properly to point to the bin folder of your Go installation: PATH = $GOPATH/bin
