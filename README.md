@@ -47,7 +47,6 @@ push it** to the pylons-testnet repository.
    ```
    We recommend that you save the mnemonic generated to be able to recover your account in the future if it gets lost.  
 
-
 ## Joining the Network 
 
 1. On receiving joining notification, run create validator
