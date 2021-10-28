@@ -45,6 +45,9 @@ push it** to the pylons-testnet repository.
     $ git push origin main
 
    ```
+   We recommend that you save the mnemonic generated to be able to recover your account in the future if it gets lost.  
+
+
 ## Joining the Network 
 
 1. On receiving joining notification, run create validator
@@ -69,5 +72,4 @@ push it** to the pylons-testnet repository.
    ```shell
    $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<moniker-name> --broadcast-mode=async --chain-id=pylons-testnet -y
    ```
-   We recommend that you save the mnemonic generated to be able to recover your account in the future if it gets lost.  
  
