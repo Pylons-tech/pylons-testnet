@@ -45,3 +45,30 @@ push it** to the pylons-testnet repository.
     $ git push origin main
 
    ```
+   We recommend that you save the mnemonic generated to be able to recover your account in the future if it gets lost.  
+
+## Joining the Network 
+
+1. On receiving joining notification, run create validator
+
+   ```shell
+   $ pylonsd tx staking create-validator \
+         --amount=1000000ubedrock \
+         --pubkey=$(pylonsd tendermint show-validator) \
+         --moniker=<moniker> \
+         --chain-id=pylons-testnet \
+         --commission-rate="0.10" \
+         --commission-max-rate="0.20" \
+         --commission-max-change-rate="0.01" \
+         --min-self-delegation="1000000" \
+         --gas="auto" \
+         --from=<key_name>
+   
+   ```
+
+2. Self-delegate 1000000ubedrock 
+
+   ```shell
+   $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<moniker-name> --broadcast-mode=async --chain-id=pylons-testnet -y
+   ```
+ 
