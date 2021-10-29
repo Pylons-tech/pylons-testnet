@@ -69,6 +69,6 @@ push it** to the pylons-testnet repository.
 2. Self-delegate 1000000ubedrock 
 
    ```shell
-   $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<moniker-name> --broadcast-mode=async --chain-id=pylons-testnet -y
+   $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<key-name> --broadcast-mode=async --chain-id=pylons-testnet -y
    ```
  
