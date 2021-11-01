@@ -47,30 +47,21 @@
 
    ```
 
-
-7. Run pylonsd validate-genesis .  Please reach out if there are issues
-
-   ```shell
-    $ pylonsd validatate-genesis
-
-   ```
-
-
-8. Run pylonsd start
+7. Run pylonsd start
 
    ```shell
     $ pylonsd start
 
    ```
 
-9. Check the balance of your pyloxxxxx address. Please reach out to be funded from the faucet if you do not have funds (1,000,000ubedrock)
+8. Check the balance of your pyloxxxxx address. Please reach out to be funded from the faucet if you do not have funds (1,000,000ubedrock)
 
    ```shell
     $ pylonsd query bank balances <delegator-addresss>
 
    ```
    
-10. Create your validator.
+9. Create your validator.
 
    ```shell
     $ pylonsd tx staking create-validator \
@@ -87,7 +78,7 @@
       --from=<key-name>
 
    ```
-11. Self-delegate 1000000ubedrock 
+10. Self-delegate 1000000ubedrock 
 
    ```shell
    $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<key-name> --broadcast-mode=async --chain-id=pylons-testnet -y
