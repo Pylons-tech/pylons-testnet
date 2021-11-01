@@ -34,7 +34,7 @@
 5. Run pylonsd validate-genesis .  Please reach out if there are issues
 
    ```shell
-    $ pylonsd validatate-genesis
+    $ pylonsd validate-genesis
 
    ```
    
