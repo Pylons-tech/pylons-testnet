@@ -19,7 +19,7 @@
    $ pylonsd version
    ``` 
 
-3. Run pylonsd-unsafe-reset-all
+3. Run pylonsd unsafe-reset-all
 
    ```shell
    $ pylonsd unsafe-reset-all
