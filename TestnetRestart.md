@@ -54,7 +54,7 @@
 
    ```
 
-8. Check the balance of your pyloxxxxx address. Please reach out to be funded from the faucet if you do not have funds (1,000,000ubedrock)
+8. Check the balance of your pyloxxxxx address. Please reach out to be funded from the faucet if you do not have funds (1,000,000ubedrock). Paste your pyloxxxxx address on the validator chat and request funds if you do not have.
 
    ```shell
     $ pylonsd query bank balances <delegator-addresss>
