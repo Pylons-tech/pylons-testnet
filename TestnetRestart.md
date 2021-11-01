@@ -9,7 +9,7 @@
 
 ## Testnet Restart
 
-1. Get the proper version (v0.3.1) and make install the pylonsd binary
+1. Get the proper version (v0.3.1) and `make install` the pylonsd binary
 
  
 
