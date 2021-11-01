@@ -28,7 +28,7 @@
 4. Download the correct genesis.json file  and copy the file to ~/.pylons/config/genesis.json
 
    ```shell
-    link: https://github.com/Pylons-tech/pylons-testnet/blob/main/genesis.json
+     https://github.com/Pylons-tech/pylons-testnet/blob/main/genesis.json
    ```
 
 5. Run pylonsd validate-genesis .  Please reach out if there are issues
