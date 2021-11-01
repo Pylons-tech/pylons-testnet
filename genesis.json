@@ -33,14 +33,210 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "pylo1lnnll0fkhennv9m876hzee3905g96t29awy3p3",
+          "address": "pylo1csclcc6rzs7z3eyjqvzrrgrfh79hng2gp0y9aq",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "pylo16h2tj0cmpa5q52k0yhhzx653nxrkg7jfdgte52",
+          "address": "pylo1hnvz8aq0ckr6vkfxzgwrhdlrhr3llg9shl0rnj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1qgkn70f4jj6cr3gq83z2j77pxzt8jpa8z6688s",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1k3ce32fcv9c4h96gvqvj209astg38wtld2437k",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1hk8jpymhvd5064h8za5w8qsje6h32vgg9su4zt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1jxuvj4360uz5zf7aunj89ggnmq3secqeu8jney",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1qgm6ap7qlaswlr4yaq6t7c8gjeu5vxg3pxn0na",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1qskws0udy8rree6g580y26pqcwe9tt4aa9phkn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1gqyrc89t2mxcdu9qn6y9hqexg4wadx28n55ucx",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1xyszwmvp6ea7d7qy2kptgar7kveclacd04n90h",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1j3hew0m5927nw8lxdxpnne77xpcyj3mtexeswt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo10xg3wer86j238esa3a8jg3k3jk25wf4drhr7pp",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1lxeun55y2yqsmpu4n6q3hy5rdc5l2frpfpgjyw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo10adnajd3d5m5070rq92h20kr0sas36v2qegffk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1h6gcn2mpv3u4k6ymxzmu8s935e3lpnmak4szq2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1ck7s2t86rc3ww7208auk69daw3lv0cgp2efwlr",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1znc28t4p2akrujq8u62jmmy9hvlkmsyfyxn2g4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo132q8t8ppvehejm80nh89ftlqp67aux8pjdaytn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1g7hcplxzsgvfpcddkyu76cmglhxtht9ssgj8wv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1vmgx88hd7d30n4x8plck9pcy97slrqqq3wphzn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1tdmeurwdu9ew5rlw04wjsc65caaqug27slu742",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1x6s872006cx5j53lj9fdn7kdkz2rmtzga8qkcr",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1hmkc65nl5ehtjksqw2t6a6vgy6r6nzrgq9knp9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1285nk96yy7gdc3tx3zg08qnyj28hy4l3h3st4v",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1mmx0hze04we4fvvjaaq8dfuch3gcncramk5fq6",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1sgurknct4y8nvafxw6vqyd8ksul9tnmng2zzgw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1yvdgpwurvgq5z450j0jw3c0vhla5e05tfrvyef",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1s8jpvujm9t527m4qqplfty68yj39mr2rcaa97q",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1zkakfl9hte99l0334px6x0a3y0u7f6qhnl5ynl",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1yln6qhvp0aurkt4deevy6y6tvza2wkfmlv9kf7",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -53,29 +249,277 @@
         "default_send_enabled": true
       },
       "balances": [
-        {
-          "address": "pylo1lnnll0fkhennv9m876hzee3905g96t29awy3p3",
+         {
+          "address": "pylo1qgkn70f4jj6cr3gq83z2j77pxzt8jpa8z6688s",
           "coins": [
             {
               "denom": "ubedrock",
-              "amount": "1000000000"
+              "amount": "100000000000"
             },
             {
               "denom": "upylon",
-              "amount": "1000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "pylo16h2tj0cmpa5q52k0yhhzx653nxrkg7jfdgte52",
+          "address": "pylo1csclcc6rzs7z3eyjqvzrrgrfh79hng2gp0y9aq",
           "coins": [
             {
               "denom": "ubedrock",
-              "amount": "1000000000"
-            },
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1qgm6ap7qlaswlr4yaq6t7c8gjeu5vxg3pxn0na",
+          "coins": [
             {
-              "denom": "upylon",
-              "amount": "1000000000"
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1qskws0udy8rree6g580y26pqcwe9tt4aa9phkn",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1znc28t4p2akrujq8u62jmmy9hvlkmsyfyxn2g4",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1zkakfl9hte99l0334px6x0a3y0u7f6qhnl5ynl",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1yvdgpwurvgq5z450j0jw3c0vhla5e05tfrvyef",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1yln6qhvp0aurkt4deevy6y6tvza2wkfmlv9kf7",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1xyszwmvp6ea7d7qy2kptgar7kveclacd04n90h",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1x6s872006cx5j53lj9fdn7kdkz2rmtzga8qkcr",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1gqyrc89t2mxcdu9qn6y9hqexg4wadx28n55ucx",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1g7hcplxzsgvfpcddkyu76cmglhxtht9ssgj8wv",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1285nk96yy7gdc3tx3zg08qnyj28hy4l3h3st4v",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1tdmeurwdu9ew5rlw04wjsc65caaqug27slu742",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1vmgx88hd7d30n4x8plck9pcy97slrqqq3wphzn",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo10xg3wer86j238esa3a8jg3k3jk25wf4drhr7pp",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo10adnajd3d5m5070rq92h20kr0sas36v2qegffk",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1s8jpvujm9t527m4qqplfty68yj39mr2rcaa97q",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1sgurknct4y8nvafxw6vqyd8ksul9tnmng2zzgw",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo132q8t8ppvehejm80nh89ftlqp67aux8pjdaytn",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1jxuvj4360uz5zf7aunj89ggnmq3secqeu8jney",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1j3hew0m5927nw8lxdxpnne77xpcyj3mtexeswt",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1k3ce32fcv9c4h96gvqvj209astg38wtld2437k",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1hnvz8aq0ckr6vkfxzgwrhdlrhr3llg9shl0rnj",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1hk8jpymhvd5064h8za5w8qsje6h32vgg9su4zt",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "900000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1h6gcn2mpv3u4k6ymxzmu8s935e3lpnmak4szq2",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1hmkc65nl5ehtjksqw2t6a6vgy6r6nzrgq9knp9",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1ck7s2t86rc3ww7208auk69daw3lv0cgp2efwlr",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1mmx0hze04we4fvvjaaq8dfuch3gcncramk5fq6",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "pylo1lxeun55y2yqsmpu4n6q3hy5rdc5l2frpfpgjyw",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
             }
           ]
         }
@@ -110,67 +554,73 @@
     },
     "genutil": {
       "gen_txs": [
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "test-alex",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "pylo1lnnll0fkhennv9m876hzee3905g96t29awy3p3",
-                "validator_address": "pylovaloper1lnnll0fkhennv9m876hzee3905g96t29cxfx6a",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "SaAay4x493BsdvoD1+oCPKLmL0DShJhJZtVdivgtbbE="
-                },
-                "value": {
-                  "denom": "ubedrock",
-                  "amount": "1000000000"
-                }
-              }
-            ],
-            "memo": "4db3e74d93fe438f461afea5604d400ffbeea9b6@192.168.1.7:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Ay+g2JDvzuBg0GkpsivvanrTQZMIumnremnmmC6KWCD+"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "EKehxnkL2/X5roEsEN8AYuDPIJovcftr+ofcU8kx4q9UuWl24ObJCP6CQIP1BTTKzCuYSMDaVDewRtccCZ6hUA=="
-          ]
+       {
+  "body":{
+    "messages":[
+      {
+        "@type":"/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description":{
+          "moniker":"SmartNodes",
+          "identity":"",
+          "website":"",
+          "security_contact":"",
+          "details":""
+        },
+        "commission":{
+          "rate":"0.100000000000000000",
+          "max_rate":"0.200000000000000000",
+          "max_change_rate":"0.010000000000000000"
+        },
+        "min_self_delegation":"1",
+        "delegator_address":"pylo1csclcc6rzs7z3eyjqvzrrgrfh79hng2gp0y9aq",
+        "validator_address":"pylovaloper1csclcc6rzs7z3eyjqvzrrgrfh79hng2gy8fjxv",
+        "pubkey":{
+          "@type":"/cosmos.crypto.ed25519.PubKey",
+          "key":"M2K7IaFawlqNc/DekTtJbmtAZSqfaHbmektJ3/36nOU="
+        },
+        "value":{
+          "denom":"ubedrock",
+          "amount":"1000000"
         }
+      }
+    ],
+    "memo":"6294a76689d9c5455ab83f7070b6631f33ecdbf2@104.227.239.50:26656",
+    "timeout_height":"0",
+    "extension_options":[
+      
+    ],
+    "non_critical_extension_options":[
+      
+    ]
+  },
+  "auth_info":{
+    "signer_infos":[
+      {
+        "public_key":{
+          "@type":"/cosmos.crypto.secp256k1.PubKey",
+          "key":"A5veIPLTbh9EBpmnqFw6BWuQ0pt8edYxbD7mgdy/OiAW"
+        },
+        "mode_info":{
+          "single":{
+            "mode":"SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence":"0"
+      }
+    ],
+    "fee":{
+      "amount":[
+        
+      ],
+      "gas_limit":"200000",
+      "payer":"",
+      "granter":""
+    }
+  },
+  "signatures":[
+    "IK6u97QD3Jeuk10pmnTiuFZF/wX594Wy+mNf7ei4lnYG3AEeM+3FVeS+D9SmqhtfDmWi0QdnogsQaCWvdN8uKg=="
+  ]
+}
       ]
     },
     "gov": {
