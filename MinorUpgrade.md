@@ -11,7 +11,7 @@
 
          Target to get this upgrade done as quickly as possible: few seconds to a minute.
 
-1. Stop your node, get the new pylonsd version (v0.3.2) and `make install` the pylonsd binary
+1. Stop your node, get the new pylonsd version [v0.3.2](https://github.com/Pylons-tech/pylons/releases/tag/v0.3.2) and `make install` the pylonsd binary
 
  
  
