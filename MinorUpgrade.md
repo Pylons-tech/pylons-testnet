@@ -29,7 +29,7 @@
    ```
 
    
-  Optional: If your node is stopped for more than 5minutes you may be jailed on restart. If jailed, request 10,000ubedrock on the channel, and self-delegate it to unjail.
+  Optional: If your node is stopped for too long, more than a few minutes, you may be jailed on restart. If jailed, request 10,000ubedrock on the channel, and self-delegate it to unjail.
 
 
    ```
