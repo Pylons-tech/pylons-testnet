@@ -9,7 +9,7 @@
 
 ## Minor Upgrade
 
-         Target to get this upgrade done in 5 minutes or less and restart your node.
+         Target to get this upgrade done as quickly as possible 1-2mins
 
 1. Stop your node, get the new pylonsd version (v0.3.2) and `make install` the pylonsd binary
 
