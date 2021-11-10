@@ -32,7 +32,6 @@
   Optional: If your node is stopped for too long, more than a few minutes, you may be jailed on restart. If jailed, request 10,000ubedrock on the channel, and self-delegate it to unjail.
 
 
-   ```
     Self-delegate 10000ubedrock 
 
    ```shell
