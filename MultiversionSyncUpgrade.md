@@ -24,7 +24,7 @@ Keep running until synced block height reaches 121320 and halts. After this, sto
 
 #### 4. Remove the .pylons folder
 
-#### 5. Download the new pylonsd binary (v0.3.2) and run `make install` on it and re-init pylons.
+#### 5. Download the new pylonsd binary (v0.3.2), run `make install` on it and re-init pylons.
 
     git clone https://github.com/Pylons-tech/pylons
     git checkout <latest-version>
