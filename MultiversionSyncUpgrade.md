@@ -52,6 +52,7 @@ Keep running until synced block height reaches 121320 and halts. After this, sto
 
     cp pylons_backup/config/config.toml ~/.pylons/config/config.toml
 
+change (reset) the halt-height back to 0. 
 #### 11. Start pylonsd
     pylonsd start
  
