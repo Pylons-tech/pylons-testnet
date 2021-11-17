@@ -26,7 +26,7 @@ if you halt before 220k, proceed to step 2.
 
   pylonsd version (should return v0.3.2)
   
-#### 3. change (reset) the halt-height back to 0. 
+#### 3. Change (reset) the halt-height back to 0. 
     
     nano .pylons/config/app.toml
 
