@@ -22,15 +22,14 @@ Keep running until synced block height reaches 121320 and halts. After this, sto
     cp ~/.pylons ~/pylons_backup
     
 
-#### 4. Remove the .pylons folder
+#### 4. Delete the data in ~/.pylons/data/ and delete the genesis.json in ~/.pylons/config in the .pylons folder (not the backup)
 
-#### 5. Download the new pylonsd binary (v0.3.2), run `make install` on it and re-init pylons.
+#### 5. Download the new pylonsd binary (v0.3.2), run `make install` on it.
 
     git clone https://github.com/Pylons-tech/pylons
     git checkout <latest-version>
     make install
     pylonsd version
-    pylonsd init <moniker-name> --chain-id=pylons-testnet
 
   pylonsd version (should return v0.3.2)
   
@@ -38,8 +37,9 @@ Keep running until synced block height reaches 121320 and halts. After this, sto
 
     cp 121320.pylons_testnet.json .pylons/config/genesis.json
 
-#### 7. Copy your priv_validator_key.json from the pylons_backup folder (`pylons_backup/config/priv_validator_key.json`) to the new .pylons folder in the same location (`~/.pylons/config/priv_validator_key.json`);
+#### 7. Copy your priv_validator_key.json and node_key.json from the pylons_backup folder (`pylons_backup/config/`) to the new .pylons folder in the same location (`~/.pylons/config/`);
 
+    cp pylons_backup/config/priv_validator_key.json ~/.pylons/config/priv_validator_key.json
     cp pylons_backup/config/priv_validator_key.json ~/.pylons/config/priv_validator_key.json
 
 #### 8. Copy your priv_validator_state.json from the pylons_backup folder (`pylons_backup/data/priv_validator_state.json`) to the new .pylons folder in the same location (`~/.pylons/data/priv_validator_state.json`);
