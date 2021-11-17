@@ -30,7 +30,7 @@ Keep running until synced block height reaches 121320 and halts. After this, sto
     git checkout <latest-version>
     make install
     pylonsd version
-    pylonsd init $MONIKER --chain-id pylons-testnet
+    pylonsd init <moniker-name> --chain-id=pylons-testnet
 
   pylonsd version (should return v0.3.2)
   
