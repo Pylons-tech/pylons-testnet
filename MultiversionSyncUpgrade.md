@@ -23,8 +23,6 @@ Keep running until synced block height reaches 121320 and halts. After this, sto
 
 #### 4. Delete the data in `~/.pylons/data/` and delete the genesis.json in `~/.pylons/config` in the .pylons folder (Not the backup)
 
-    rm -r .pylons/data
-    rm .pylons/config/genesis.json
 
 #### 5. Download the new pylonsd binary (v0.3.2) and run `make install` on it
 
