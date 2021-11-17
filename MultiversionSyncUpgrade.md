@@ -1,4 +1,4 @@
-# Multiversion ReSync and Upgrade
+# Multiversion ReSync
 
 These instructions are for validators who are currently jailed, still running Pylonsd v0.3.1 and have not upgraded to v0.3.2. Also, your node should not be running.
 
