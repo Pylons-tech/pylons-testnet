@@ -17,18 +17,20 @@ Keep running until synced block height reaches 121320 and halts. After this, sto
 
     pylonsd export &> 121320.pylons_testnet.json
     
-#### 3. Backup old `~/.pylons folder`
+#### 3. Backup old `~/.pylons folder
 
     cp ~/.pylons ~/pylons_backup
+    
 
-#### 4. Delete the data in `~/.pylons/data/` and delete the genesis.json in `~/.pylons/config` in the .pylons folder (Not the backup)
+#### 4. Remove the .pylons folder
 
-
-#### 5. Download the new pylonsd binary (v0.3.2) and run `make install` on it
+#### 5. Download the new pylonsd binary (v0.3.2) and run `make install` on it and re-init pylons.
 
     git clone https://github.com/Pylons-tech/pylons
     git checkout <latest-version>
     make install
+    pylonsd version
+    pylonsd init $MONIKER --chain-id pylons-testnet
 
   pylonsd version (should return v0.3.2)
   
