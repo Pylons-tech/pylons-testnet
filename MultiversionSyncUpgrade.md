@@ -2,7 +2,7 @@
 
 These instructions are for validators who are currently jailed, still running Pylonsd v0.3.1 and have not upgraded to v0.3.2. Also, your node should not be running.
 
-#### 1. Clear old data, Set halt-height to 121320, Start Pylons v0.3.1 till halt-height. Steps are:
+#### 1. Clear old data, Set halt-height to 121320 and Start Pylons v0.3.1 till halt-height. Steps are:
 
       pylonsd unsafe-reset-all
       nano .pylons/config/app.toml
