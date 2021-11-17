@@ -14,7 +14,7 @@ Change halt-height=0 to 220000 and start your pylons v0.3.1 node to start syncin
       
 Keep running until synced block height reaches 220000 and halts as per setting. After this, stop your node.
 
-if you halt before 220k, proceed to step 3.
+if you halt before 220k, proceed to step 2.
     
 
 #### 2. Download the new pylonsd binary (v0.3.2), run `make install` on it.
