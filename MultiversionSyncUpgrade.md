@@ -50,7 +50,7 @@ Keep running until synced block height reaches 121320 and halts. After this, sto
 
     cp -r pylons-backup/data ~/.pylons
 
-#### 10. copy the config.toml from the backup (pylons-backup) to the same location on the new: `~/.pylons/config folder`
+#### 10. Copy the config.toml from the backup (pylons-backup) to the same location on the new: `~/.pylons/config folder`
 
     cp pylons-backup/config/config.toml ~/.pylons/config/config.toml
 
