@@ -1,6 +1,6 @@
 # Multi-version ReSync
 
-Currently your node is jailed. You are still running Pylonsd v0.3.1 and have not upgraded to v0.3.2. Also, your node is currently stopped.
+Currently your node is jailed. You are still running Pylonsd v0.3.1 and have not upgraded to v0.3.2. Also, your node should not be running.
 
 #### 1. Clear old data, Set halt-height to 121320, Start Pylons v0.3.1 till halt-height. Steps are:
 
