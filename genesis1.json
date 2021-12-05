@@ -55,6 +55,13 @@
           "account_number": "0",
           "sequence": "0"
         },
+       {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1pu0h7cyx8waj3c6rqmagv3ll5qvygyxvtnzyvv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
         
         
         
