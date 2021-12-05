@@ -68,11 +68,19 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "pylo1qgm6ap7qlaswlr4yaq6t7c8gjeu5vxg3pxn0na",
+          "address": "pylo1qufsv679033gm7x372hdwc00gzs32f7r4hjjmu",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1hpgtmcvtcnnzt5k8zaxgrzd7dtg76575grpcnv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        
         
         
         
