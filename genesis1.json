@@ -80,9 +80,16 @@
           "account_number": "0",
           "sequence": "0"
         },
-                {
+        {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "pylo1zag5vc7nfwa0scyrzfdsjj000xexfeyd956pqh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1688cw3er7g4w6avenmf0cfu4j42fpryu7a53dt",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
