@@ -21,19 +21,23 @@
    $ pylonsd version
    ``` 
 
-3. Run pylonsd unsafe-reset-all and pylonsd init
+3. Run pylonsd unsafe-reset-all, remove genesis and pylonsd init
 
    ```shell
    $ pylonsd unsafe-reset-all
+   $ rm -r $HOME/.pylons/config/genesis.json
    $ pylonsd init --chain-id=pylons-testnet-2
    ```
 
-4. Download the correct genesis.json file  and copy the file to ~/.pylons/config/genesis.json
+4. Download the correct genesis.json file (  and copy the file to ~/.pylons/config/genesis.json
 
    ```shell
      https://github.com/Pylons-tech/pylons-testnet/blob/main/genesis.json
    ```
-
+you can use:
+ ```shell
+         wget https://raw.githubusercontent.com/Pylons-tech/pylons-testnet/main/genesis.json?token=<git-token>
+ ```
 5. Run pylonsd validate-genesis .  Please reach out if there are issues
 
    ```shell
@@ -46,7 +50,10 @@
    ```shell
     Peers: 
         ae3c6f9285b613cadfa43326a38188029b6c81d4@161.97.78.75:26656
-
+        e7754fa37be29b52eed809488460110f34e677a2@185.211.6.100:26656
+        28d06fd011f0d84953f11170d2b2a859e7b0fbcc@194.163.154.64:26656
+        0a0724b6421196e9e280fb48b039a69a577a56fb@161.97.178.48:26656
+        25e7ef64b41a636e3fb4e9bb1191b785e7d1d5cc@46.166.140.172:26656
 
    ```
 
