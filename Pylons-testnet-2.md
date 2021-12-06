@@ -34,7 +34,7 @@
    ```shell
      https://github.com/Pylons-tech/pylons-testnet/blob/main/genesis.json
    ```
-you can use:
+   you can use the below command to download the genesis:
  ```shell
          wget https://raw.githubusercontent.com/Pylons-tech/pylons-testnet/main/genesis.json?token=<git-token>
  ```
