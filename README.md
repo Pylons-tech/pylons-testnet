@@ -13,7 +13,7 @@
    chain-id
 
    ```shell
-   $ pylonsd init <moniker-name> --chain-id=pylons-testnet
+   $ pylonsd init <moniker-name> --chain-id=pylons-testnet-2
    ```
 
 2. Create a local key pair in the Keybase
@@ -56,7 +56,7 @@ push it** to the pylons-testnet repository.
          --amount=1000000ubedrock \
          --pubkey=$(pylonsd tendermint show-validator) \
          --moniker=<moniker> \
-         --chain-id=pylons-testnet \
+         --chain-id=pylons-testnet-2 \
          --commission-rate="0.10" \
          --commission-max-rate="0.20" \
          --commission-max-change-rate="0.01" \
@@ -69,6 +69,6 @@ push it** to the pylons-testnet repository.
 2. Self-delegate 1000000ubedrock 
 
    ```shell
-   $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<key-name> --broadcast-mode=async --chain-id=pylons-testnet -y
+   $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<key-name> --broadcast-mode=async --chain-id=pylons-testnet-2 -y
    ```
  
