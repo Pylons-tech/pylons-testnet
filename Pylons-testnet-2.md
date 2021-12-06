@@ -40,7 +40,7 @@
 
    ```
    
-6. Add the Peers in `~/.pylons/config/config.toml and post your seed to the validator chat
+6. Add the Peers in `~/.pylons/config/config.toml and post your peer to the validator chat, and clear any old seeds in the config file.
 
    ```shell
     Peers: 
