@@ -36,8 +36,10 @@
    ```
    you can use the below command to download the genesis:
  ```shell
-         wget https://raw.githubusercontent.com/Pylons-tech/pylons-testnet/main/genesis.json?token=<git-token>
+         wget https://raw.githubusercontent.com/Pylons-tech/pylons-testnet/main/genesis.json?token=<raw-token>
  ```
+   to get your raw token open https://github.com/Pylons-tech/pylons-testnet/blob/main/genesis.json and click on raw, the token in the Url is the raw-token.
+
 5. Run pylonsd validate-genesis .  Please reach out if there are issues
 
    ```shell
