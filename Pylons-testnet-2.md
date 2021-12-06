@@ -21,10 +21,11 @@
    $ pylonsd version
    ``` 
 
-3. Run pylonsd unsafe-reset-all
+3. Run pylonsd unsafe-reset-all and pylonsd init
 
    ```shell
    $ pylonsd unsafe-reset-all
+   $ pylonsd init --chain-id=pylons-testnet-2
    ```
 
 4. Download the correct genesis.json file  and copy the file to ~/.pylons/config/genesis.json
