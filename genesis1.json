@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2021-11-01T17:00:22.891988115Z",
-  "chain_id": "pylons-testnet",
+  "genesis_time": "2021-12-06T14:49:17.391102Z",
+  "chain_id": "pylons-testnet-2",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -388,7 +388,7 @@
     },
     "bank": {
       "params": {
-        "send_enabled": [],
+        "send_enabled": [{"denom": "ustripeusd", "enabled": false}],
         "default_send_enabled": true
       },
       "balances": [
@@ -869,9 +869,9 @@
     "epochs": {
       "epochs": [
         {
-          "identifier": "day",
+          "identifier": "week",
           "start_time": "0001-01-01T00:00:00Z",
-          "duration": "86400s",
+          "duration": "604800s",
           "current_epoch": "0",
           "current_epoch_start_time": "0001-01-01T00:00:00Z",
           "epoch_counting_started": false
@@ -1007,14 +1007,14 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.130000000000000000",
+        "inflation": "0.000000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "stake",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "mint_denom": "disabled",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
@@ -1028,8 +1028,6 @@
       "tradeCount": "0",
       "entityCount": "0",
       "params": {
-        "minNameFieldLength": "8",
-        "minDescriptionFieldLength": "20",
         "coinIssuers": [
           {
             "coinDenom": "upylon",
@@ -1058,13 +1056,13 @@
             "name": "Pylons_Inc"
           }
         ],
-        "recipeFeePercentage": "0.100000000000000000",
+       "recipeFeePercentage": "0.100000000000000000",
         "itemTransferFeePercentage": "0.100000000000000000",
         "updateItemStringFee": {
           "denom": "upylon",
           "amount": "10"
         },
-        "minTransferFee": "1",
+       "minTransferFee": "1",
         "maxTransferFee": "10000",
         "updateUsernameFee": {
           "denom": "upylon",
@@ -1073,7 +1071,7 @@
         "distrEpochIdentifier": "day",
         "engineVersion": "0"
       },
-      "googleInAppPurchaseOrderList": [],
+     "googleInAppPurchaseOrderList": [],
       "googleIAPOrderCount": "0",
       "executionList": [],
       "executionCount": "0",
