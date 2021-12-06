@@ -415,15 +415,6 @@
           ]
         },
         {
-          "address": "pylo1wukgguc6z3fxw8zcdzfwkzpqc67xkhul9mra7f",
-          "coins": [
-            {
-              "denom": "ubedrock",
-              "amount": "1000000"
-            }
-          ]
-        }, 
-        {
           "address": "pylo1qgm6ap7qlaswlr4yaq6t7c8gjeu5vxg3pxn0na",
           "coins": [
             {
@@ -445,7 +436,16 @@
              }
                ]
         },
-             
+       
+        {
+          "address": "pylo1wukgguc6z3fxw8zcdzfwkzpqc67xkhul9mra7f",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        }, 
        {
           "address": "pylo1qufsv679033gm7x372hdwc00gzs32f7r4hjjmu",
           "coins": [
