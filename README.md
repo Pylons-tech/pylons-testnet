@@ -33,7 +33,7 @@
 4. Create the gentx ()
 
    ```shell
-   $ pylonsd gentx <key-name> 1000000ubedrock --moniker="<moniker-name>" --pubkey $(pylonsd tendermint show-validator) --keyring-backend=os --chain-id=pylons-testnet --output-document ./gentxs/<moniker-name>.json                    
+   $ pylonsd gentx <key-name> 1000000ubedrock --moniker="<moniker-name>" --pubkey $(pylonsd tendermint show-validator) --keyring-backend=os --chain-id=pylons-testnet-2 --output-document ./gentxs/<moniker-name>.json                    
    ```
 
 5. The previous step created a <monikername>.json file to the gentxs directory of this project. Now, you have to **commit and 
