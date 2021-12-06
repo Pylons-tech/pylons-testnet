@@ -46,9 +46,17 @@
           "sequence": "0"
         },
 
+        
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "pylo1d4u3yf6x382medzspuwtnv6jl6q73j0hshjmsr",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "pylo1wukgguc6z3fxw8zcdzfwkzpqc67xkhul9mra7f",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -406,6 +414,15 @@
             }
           ]
         },
+        {
+          "address": "pylo1wukgguc6z3fxw8zcdzfwkzpqc67xkhul9mra7f",
+          "coins": [
+            {
+              "denom": "ubedrock",
+              "amount": "1000000"
+            }
+          ]
+        }, 
         {
           "address": "pylo1qgm6ap7qlaswlr4yaq6t7c8gjeu5vxg3pxn0na",
           "coins": [
