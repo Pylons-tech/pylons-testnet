@@ -13,7 +13,11 @@
 
 1. Stop your node, get the new pylonsd version [v0.4.1](https://github.com/Pylons-tech/pylons/releases/tag/v0.4.1) and `make install` the pylonsd binary
 
- 
+  ```shell
+    git clone https://github.com/Pylons-tech/pylons
+    git checkout <latest-version>
+    make install
+ ``` 
  
 2. Run pylonsd version to verify the version is correct.  please reach out if the version is wrong.
 
