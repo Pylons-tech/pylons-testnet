@@ -9,7 +9,7 @@
 
 ## Minor Upgrade
 
-         Get this upgrade done as quickly as possible: few seconds to a minute 
+         Get this upgrade done quickly: few seconds to a minute 
 
 1. Stop your node, get the new pylonsd version [v0.4.1](https://github.com/Pylons-tech/pylons/releases/tag/v0.4.1) and `make install` the pylonsd binary
 
@@ -31,8 +31,6 @@
    
   Optional: If your node is stopped for too long, more than a few minutes, you may be jailed on restart. If jailed, request 10,000ubedrock on the channel, and self-delegate it to unjail.
 
-
-    Self-delegate 10000ubedrock 
 
    ```shell
    $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 10000ubedrock --from=<key-name> --broadcast-mode=async --chain-id=pylons-testnet -y
