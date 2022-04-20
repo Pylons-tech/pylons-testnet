@@ -1,21 +1,21 @@
-# pylons-testnet-2
+# pylons-testnet-3 Incentivized Testnet
 
 - Go version: [v1.17+](https://golang.org/dl/)
-- Pylonsd version: [v0.4.0](https://github.com/Pylons-tech/pylons/releases/tag/v0.4.0)
+- Pylonsd version: [v0.4.2](https://github.com/Pylons-tech/pylons/releases/tag/v0.4.2)
 
          ensure GOPATH is set properly to point to the go directory of your Go installation: GOPATH = $HOME/go
          ensure PATH is set properly to point to the bin folder of your Go installation: PATH = $GOPATH/bin
          pylonsd binary(link above or from 'make install' on repo clone/source) should be put in Go's bin folder
 
-## Testnet Restart
+## Testnet Restart - Pylons Testnet 3
 
-1. Get the proper version (v0.4.0) and `make install` the pylonsd binary
+1. Get the proper version (v0.4.2) and `make install` the pylonsd binary
  ```shell
     git clone https://github.com/Pylons-tech/pylons
     git checkout <latest-version>
     make install
  ``` 
-2. Run pylonsd version to verify the version is correct.  please reach out if the version is wrong.
+2. Run pylonsd version to verify the version is correct (0.4.2).  please reach out if the version is wrong.
 
    ```shell
    $ pylonsd version
@@ -26,7 +26,7 @@
    ```shell
    $ pylonsd unsafe-reset-all
    $ rm -r $HOME/.pylons/config/genesis.json
-   $ pylonsd init --chain-id=pylons-testnet-2
+   $ pylonsd init --chain-id=pylons-testnet-3
    ```
 
 4. Download the correct genesis.json file (  and copy the file to ~/.pylons/config/genesis.json
@@ -36,10 +36,9 @@
    ```
    you can use the below command to download the genesis:
  ```shell
-         wget https://raw.githubusercontent.com/Pylons-tech/pylons-testnet/main/genesis.json?token=<raw-token>
+         curl https://testnet.pylons.tech/genesis | jq .result.genesis > genesis.json 
  ```
-   to get your raw token open https://github.com/Pylons-tech/pylons-testnet/blob/main/genesis.json and click on raw, the token in the Url is the raw-token.
-
+   
 5. Run pylonsd validate-genesis .  Please reach out if there are issues
 
    ```shell
@@ -51,11 +50,7 @@
 
    ```shell
     Peers: 
-        ae3c6f9285b613cadfa43326a38188029b6c81d4@161.97.78.75:26656
-        e7754fa37be29b52eed809488460110f34e677a2@185.211.6.100:26656
-        28d06fd011f0d84953f11170d2b2a859e7b0fbcc@194.163.154.64:26656
-        0a0724b6421196e9e280fb48b039a69a577a56fb@161.97.178.48:26656
-        25e7ef64b41a636e3fb4e9bb1191b785e7d1d5cc@46.166.140.172:26656
+        
 
    ```
 
@@ -66,7 +61,7 @@
 
    ```
 
-8. Check the balance of your pyloxxxxx address. Please reach out to be funded from the faucet if you do not have funds (1,000,000ubedrock). Paste your pyloxxxxx address on the validator chat and request funds if you do not have.
+8. Check the balance of your pyloxxxxx address. Please reach out to be funded from the faucet if you do not have funds (1,000,000ubedrock). Paste your pyloxxxxx address on the validator chat and request funds if you do not have. Beware to not get jailed because bedrock tokens from the faucet given to unjail you will be deducted from your incentivized bedrock tokens.
 
    ```shell
     $ pylonsd query bank balances <delegator-addresss>
@@ -80,7 +75,7 @@
       --amount=1000000ubedrock \
       --pubkey=$(pylonsd tendermint show-validator) \
       --moniker=<moniker> \
-      --chain-id=pylons-testnet-2 \
+      --chain-id=pylons-testnet-3 \
       --commission-rate="0.10" \
       --commission-max-rate="0.20" \
       --commission-max-change-rate="0.01" \
@@ -93,6 +88,6 @@
 10. Self-delegate 1000000ubedrock 
 
    ```shell
-   $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<key-name> --broadcast-mode=async --chain-id=pylons-testnet-2 -y
+   $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<key-name> --broadcast-mode=async --chain-id=pylons-testnet-3 -y
    ```
  
