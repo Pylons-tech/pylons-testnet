@@ -13,7 +13,7 @@
    chain-id
 
    ```shell
-   $ pylonsd init <moniker-name> --chain-id=pylons-testnet-2
+   $ pylonsd init <moniker-name> --chain-id=pylons-testnet-3
    ```
 
 2. Create a local key pair in the Keybase
@@ -33,7 +33,7 @@
 4. Create the gentx ()
 
    ```shell
-   $ pylonsd gentx <key-name> 1000000ubedrock --moniker="<moniker-name>" --pubkey $(pylonsd tendermint show-validator) --keyring-backend=os --chain-id=pylons-testnet-2 --output-document ./gentxs/<moniker-name>.json                    
+   $ pylonsd gentx <key-name> 1000000ubedrock --moniker="<moniker-name>" --pubkey $(pylonsd tendermint show-validator) --keyring-backend=os --chain-id=pylons-testnet-3 --output-document ./gentxs/<moniker-name>.json                    
    ```
 
 5. The previous step created a <monikername>.json file to the gentxs directory of this project. Now, you have to **commit and 
@@ -45,7 +45,6 @@ push it** to the pylons-testnet repository.
     $ git push origin main
 
    ```
-   We recommend that you save the mnemonic generated to be able to recover your account in the future if it gets lost.  
 
 ## Joining the Network 
 
@@ -56,7 +55,7 @@ push it** to the pylons-testnet repository.
          --amount=1000000ubedrock \
          --pubkey=$(pylonsd tendermint show-validator) \
          --moniker=<moniker> \
-         --chain-id=pylons-testnet-2 \
+         --chain-id=pylons-testnet-3 \
          --commission-rate="0.10" \
          --commission-max-rate="0.20" \
          --commission-max-change-rate="0.01" \
@@ -69,6 +68,6 @@ push it** to the pylons-testnet repository.
 2. Self-delegate 1000000ubedrock 
 
    ```shell
-   $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<key-name> --broadcast-mode=async --chain-id=pylons-testnet-2 -y
+   $ pylonsd tx staking delegate pylovaloperxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1000000ubedrock --from=<key-name> --broadcast-mode=async --chain-id=pylons-testnet-3 -y
    ```
  
