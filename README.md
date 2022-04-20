@@ -61,6 +61,7 @@ push it** to the pylons-testnet repository.
          --commission-max-change-rate="0.01" \
          --min-self-delegation="1000000" \
          --gas="auto" \
+         --gas-adjustment="1.5" \
          --from=<key_name>
    
    ```
