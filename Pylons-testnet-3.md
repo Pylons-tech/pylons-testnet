@@ -9,7 +9,7 @@
 
 ## Testnet Restart - Pylons Testnet 3
 
-1. Get the proper version (v0.4.0) and `make install` the pylonsd binary
+1. Get the proper version (v0.4.2) and `make install` the pylonsd binary
  ```shell
     git clone https://github.com/Pylons-tech/pylons
     git checkout <latest-version>
