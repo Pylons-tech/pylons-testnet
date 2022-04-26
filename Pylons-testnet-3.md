@@ -36,7 +36,7 @@
    ```
    you can use the below command to download the genesis:
  ```shell
-         curl https://testnet.pylons.tech/genesis | jq .result.genesis > genesis.json 
+         curl http://95.214.55.4:26657/genesis | jq .result.genesis > genesis.json 
  ```
    
 5. Run pylonsd validate-genesis .  Please reach out if there are issues
