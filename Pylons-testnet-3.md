@@ -1,7 +1,7 @@
 # pylons-testnet-3 Incentivized Testnet
 
 - Go version: [v1.17+](https://golang.org/dl/)
-- Pylonsd version: [v0.5.0](https://github.com/Pylons-tech/pylons/releases/tag/v0.5.0)
+- Pylonsd version: [v0.4.2](https://github.com/Pylons-tech/pylons/releases/tag/v0.4.2)
 
          ensure GOPATH is set properly to point to the go directory of your Go installation: GOPATH = $HOME/go
          ensure PATH is set properly to point to the bin folder of your Go installation: PATH = $GOPATH/bin
@@ -9,13 +9,13 @@
 
 ## Testnet Restart - Pylons Testnet 3
 
-1. Get the proper version (v0.5.0) and `make install` the pylonsd binary
+1. Get the proper version (v0.4.2) and `make install` the pylonsd binary
  ```shell
     git clone https://github.com/Pylons-tech/pylons
     git checkout <latest-version>
     make install
  ``` 
-2. Run pylonsd version to verify the version is correct (0.5.0).  please reach out if the version is wrong.
+2. Run pylonsd version to verify the version is correct (0.4.2).  please reach out if the version is wrong.
 
    ```shell
    $ pylonsd version
