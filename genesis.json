@@ -1,6 +1,6 @@
 {
   "genesis_time": "2021-12-06T14:49:17.391102Z",
-  "chain_id": "pylons-testnet-2",
+  "chain_id": "pylons-testnet-3",
   "initial_height": "1",
   "consensus_params": {
     "block": {
