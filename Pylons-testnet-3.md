@@ -1,4 +1,4 @@
-# pylons-testnet-3 Incentivized Testnet
+# pylons-testnet-3 Testnet
 
 - Go version: [v1.17+](https://golang.org/dl/)
 - Pylonsd version: [v0.4.2](https://github.com/Pylons-tech/pylons/releases/tag/v0.4.2)
